@@ -2,15 +2,18 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:js-app",
-    ":timezone(Asia/Tokyo)",
     ":automergePatch",
     ":automergeLinters",
     ":automergeTesters",
     ":automergeTypes",
     ":automergePr",
-    "group:monorepos",
+    ":ignoreUnstable",
+    ":separateMultipleMajorReleases",
+    ":timezone(Asia/Tokyo)",
+    ":enableVulnerabilityAlerts",
     "docker:disableMajor",
-    "helpers:disableTypesNodeMajor"
+    "helpers:disableTypesNodeMajor",
+    "replacements:all"
   ],
   "hostRules": [
     {
