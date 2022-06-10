@@ -31,5 +31,5 @@
       "automerge": false
     }
   ],
-  "reviewers": ["dataware-tools/renovate-reviewer"]
+  "reviewers": ["team:renovate-reviewer"]
 }
