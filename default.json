@@ -30,5 +30,6 @@
       "matchCurrentVersion": "<1.0.0",
       "automerge": false
     }
-  ]
+  ],
+  "reviewers": ["renovate-reviewer"]
 }
