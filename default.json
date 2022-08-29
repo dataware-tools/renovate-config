@@ -29,6 +29,10 @@
     {
       "matchCurrentVersion": "<1.0.0",
       "automerge": false
+    },
+    {
+      "matchPackageNames": ["@mui/lab"],
+      "automerge": false
     }
   ],
   "reviewers": ["team:renovate-reviewer"]
